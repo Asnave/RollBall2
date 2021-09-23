@@ -11,7 +11,7 @@ public class PlayerControl : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
     public GameObject loseTextObject;
-    public GameObject Button;
+    public GameObject restart;
 
     private float movementX;
     private float movementY;
@@ -30,7 +30,7 @@ public class PlayerControl : MonoBehaviour
 
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
-        Button.SetActive(false);
+        restart.SetActive(false);
     }
 
     void OnMove(InputValue movementValue)
@@ -90,7 +90,7 @@ public class PlayerControl : MonoBehaviour
                 loseTextObject.SetActive(false);
             }
 
-            Button.SetActive(true);
+            restart.SetActive(true);
             
         }
 
