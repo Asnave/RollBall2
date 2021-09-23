@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerControl : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
     public GameObject loseTextObject;
+    public GameObject Button;
 
     private float movementX;
     private float movementY;
@@ -28,6 +30,7 @@ public class PlayerControl : MonoBehaviour
 
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
+        Button.SetActive(false);
     }
 
     void OnMove(InputValue movementValue)
@@ -60,7 +63,11 @@ public class PlayerControl : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Pickup"))
+        
+        
+            
+
+            if (other.gameObject.CompareTag("Pickup"))
         {
             other.gameObject.SetActive(false);
             count = count + 1;
@@ -82,6 +89,9 @@ public class PlayerControl : MonoBehaviour
                 winTextObject.SetActive(true);
                 loseTextObject.SetActive(false);
             }
+
+            Button.SetActive(true);
+            
         }
 
        
