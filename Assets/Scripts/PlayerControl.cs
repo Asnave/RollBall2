@@ -84,14 +84,7 @@ public class PlayerControl : MonoBehaviour
             }
         }
 
-        if (other.gameObject.CompareTag("speedBoost"))
-        {
-            other.gameObject.SetActive(false);
-
-            rb.AddForce(0, 0, 5);
-            
-
-        }
+       
 
     }
 }
