@@ -58,7 +58,7 @@ public class PlayerControl : MonoBehaviour
 
     private void Update()
     {
-        rb.AddForce(0, 0, 0);
+        rb.AddForce(0, 0, 6);
     }
 
     private void OnTriggerEnter(Collider other)
