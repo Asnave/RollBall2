@@ -44,7 +44,7 @@ public class PlayerControl : MonoBehaviour
 
     void SetCountText()
     {
-        countText.text = "SCORE" + count.ToString();
+        countText.text = "SCORE " + count.ToString();
     }
    
 
@@ -59,12 +59,17 @@ public class PlayerControl : MonoBehaviour
     private void Update()
     {
         rb.AddForce(0, 0, 6);
+        rb.AddForce(0, -10, 0);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         
-        
+        if (other.gameObject.CompareTag("Obstacles"))
+       {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            DontDestroyOnLoad(gameObject);
+       }
             
 
             if (other.gameObject.CompareTag("Pickup"))
