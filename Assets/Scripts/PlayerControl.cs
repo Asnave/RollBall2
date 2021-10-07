@@ -59,17 +59,11 @@ public class PlayerControl : MonoBehaviour
     private void Update()
     {
         rb.AddForce(0, 0, 6);
-        rb.AddForce(0, -10, 0);
+        rb.AddForce(0, -15, 0);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        if (other.gameObject.CompareTag("Obstacles"))
-       {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            DontDestroyOnLoad(gameObject);
-       }
             
 
             if (other.gameObject.CompareTag("Pickup"))
