@@ -431,6 +431,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 696943377182589792, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 47.91242
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943377182589792, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25.085531
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943377182589822, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 696943378352794005, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_Camera
       value: 
@@ -482,6 +494,10 @@ PrefabInstance:
     - target: {fileID: 696943378442017733, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_Name
       value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943378490320673, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: transitionTime
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2854dac5d6a08a846997532207286952, type: 3}
