@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGlobal: 1
-  priority: 0
+  priority: 2.99
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 7a55a0d97477d7b4b82ef616db5155c1, type: 2}
@@ -441,7 +441,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 696943377182589822, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_Color.a
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943377182589822, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_Color.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943377182589822, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943377182589822, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943377182589822, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 696943378352794005, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_Camera
@@ -494,6 +510,10 @@ PrefabInstance:
     - target: {fileID: 696943378442017733, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_Name
       value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943378442017733, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 696943378490320673, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: transitionTime
