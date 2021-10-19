@@ -1237,3 +1237,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.606375 seconds.
+  path: Assets/Scenes/RollBall2.7.unity
+  artifactKey: Guid(4fdbdeffd9800f34cb014ccf8c856ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RollBall2.7.unity using Guid(4fdbdeffd9800f34cb014ccf8c856ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e69ce96529db0a961cf02f5db16a6bc') in 0.013491 seconds 
+  Import took 0.019263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2719.178581 seconds.
+  path: Assets/Fonts/Mad Mecha Italic SDF.asset
+  artifactKey: Guid(9ea9d8093da2d7c41959010d0ecf49d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Mad Mecha Italic SDF.asset using Guid(9ea9d8093da2d7c41959010d0ecf49d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbee7298a629bd68545da3c7e5048d66') in 0.210556 seconds 
+  Import took 0.217106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Fonts/Mad Mecha SDF.asset
+  artifactKey: Guid(2b227aab95c686149a2fcb3ba3018b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Mad Mecha SDF.asset using Guid(2b227aab95c686149a2fcb3ba3018b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2a6d2ac568f31c4eddb24e30379726') in 0.044325 seconds 
+  Import took 0.050631 seconds .
+
