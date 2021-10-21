@@ -196,3 +196,4 @@ Received Import Request.
 Start importing Assets/Scripts/MainMenu.cs using Guid(bdaae431fbcb1c348b4e428896b311ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92406a1627fd432cf6c2260542eba610') in 0.037864 seconds 
   Import took 0.044681 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
