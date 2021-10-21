@@ -12,7 +12,12 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         DontDestroyOnLoad(gameObject);
     }
-
+    public void BackToMenu ()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+        DontDestroyOnLoad(gameObject);
+    }
+ 
     public void ExitGame ()
     {
         Debug.Log("QUIT");
