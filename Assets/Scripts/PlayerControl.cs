@@ -87,6 +87,8 @@ public class PlayerControl : MonoBehaviour
 
         if (other.gameObject.CompareTag("End"))
         {
+
+
             if (count < 20)
             {
                 loseTextObject.SetActive(true);
@@ -98,7 +100,7 @@ public class PlayerControl : MonoBehaviour
                 winTextObject.SetActive(true);
                 loseTextObject.SetActive(false);
             }
-
+            
             restart.SetActive(true);
             
         }

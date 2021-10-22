@@ -19,10 +19,16 @@ public class PlayerCollision : MonoBehaviour
             restart.SetActive(true);
             loseTextObject.SetActive(true);
             winTextObject.SetActive(false);
+
+            if (loseTextObject == true)
+            {
+                winTextObject.SetActive(false);
+            }
         }
         
        if (collisionInfo.collider.tag == "End")
         {
+        
             movement.enabled = false;
         }
     }
