@@ -9,8 +9,8 @@ public class PauseMenu : MonoBehaviour
 
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
-    public Animator transition;
-    public float transitionTime = 1f;
+   /// public Animator transition;
+   //// public float transitionTime = 1f;
     public PlayerControl movement;
 
     public void Start()
@@ -25,19 +25,19 @@ public class PauseMenu : MonoBehaviour
             Debug.Log("is this working?");
         }
     }
-    IEnumerator LoadLevel(int levelIndex)
-    {
-        transition.SetTrigger("Start");
+  ////  IEnumerator LoadLevel(int levelIndex)
+    //{
+    ///    transition.SetTrigger("Start");
 
-        yield return new WaitForSeconds(transitionTime);
+       /// yield return new WaitForSeconds(transitionTime);
 
-        SceneManager.LoadScene(levelIndex);
-    }
-    public void BackToMenu()
-    {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
-        DontDestroyOnLoad(gameObject);
-    }
+       /// SceneManager.LoadScene(levelIndex);
+    
+    //public void BackToMenu()
+   // {
+     //   StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+      //  DontDestroyOnLoad(gameObject);
+  //  }
 
     public void Resume()
     {
