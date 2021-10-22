@@ -12,6 +12,7 @@ public class PlayerControl : MonoBehaviour
     public GameObject winTextObject;
     public GameObject loseTextObject;
     public GameObject restart;
+    public GameObject pauseMenuUI;
 
     private float movementX;
     private float movementY;
@@ -31,6 +32,7 @@ public class PlayerControl : MonoBehaviour
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
         restart.SetActive(false);
+        pauseMenuUI.SetActive(false);
     }
 
     void OnMove(InputValue movementValue)
