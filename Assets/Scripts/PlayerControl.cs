@@ -12,14 +12,19 @@ public class PlayerControl : MonoBehaviour
     public GameObject winTextObject;
     public GameObject loseTextObject;
     public GameObject restart;
-    public GameObject pauseMenuUI;
+    
+    public PlayerControl movement;
 
     private float movementX;
     private float movementY;
     public Rigidbody rb;
     private int count;
 
+    public static bool GameIsPaused = false;
+    
    
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,9 +37,10 @@ public class PlayerControl : MonoBehaviour
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
         restart.SetActive(false);
-        pauseMenuUI.SetActive(false);
+      
     }
 
+    
     void OnMove(InputValue movementValue)
     {
         Vector2 movementVector = movementValue.Get<Vector2>();
@@ -62,8 +68,10 @@ public class PlayerControl : MonoBehaviour
     {
         rb.AddForce(0, 0, 6);
         rb.AddForce(0, -15, 0);
-    }
 
+        
+    }
+    
     private void OnTriggerEnter(Collider other)
     {
             

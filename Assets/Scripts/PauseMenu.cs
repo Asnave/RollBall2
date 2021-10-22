@@ -13,18 +13,16 @@ public class PauseMenu : MonoBehaviour
     public float transitionTime = 1f;
     public PlayerControl movement;
 
+    public void Start()
+    {
+        PauseMenuUI.SetActive(false);
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (GameIsPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
+            PauseMenuUI.SetActive(true);
+            Debug.Log("is this working?");
         }
     }
     IEnumerator LoadLevel(int levelIndex)
