@@ -7,7 +7,20 @@ public class MainMenu : MonoBehaviour
 {
   public Animator transition;
   public float transitionTime = 1f;
+    public GameObject introPS;
+    public GameObject pressedPS;
 
+    private void Start()
+    {
+        introPS.SetActive(true);
+        pressedPS.SetActive(false);
+    }
+
+    public void PressedPS()
+    {
+        pressedPS.SetActive(true);
+        introPS.SetActive(false);
+    }
     public void PlayGame ()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
