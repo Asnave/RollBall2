@@ -66,7 +66,7 @@ public class PlayerControl : MonoBehaviour
 
     private void Update()
     {
-        rb.AddForce(0, 0, 6);
+        rb.AddForce(0, 0, 30);
         rb.AddForce(0, -15, 0);
 
         
