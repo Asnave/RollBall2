@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
 
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
+   
    /// public Animator transition;
    //// public float transitionTime = 1f;
     public PlayerControl movement;
