@@ -23,8 +23,14 @@ public class PauseMenu : MonoBehaviour
        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Pause();
-            Debug.Log("is this working?");
+           if (GameIsPaused)
+            {
+                Resume();
+            }else
+            {
+                Pause();
+            }
+
         }
     }
   ////  IEnumerator LoadLevel(int levelIndex)
