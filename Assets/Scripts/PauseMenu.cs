@@ -10,6 +10,8 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
 
+    
+
     /// public Animator transition;
     //// public float transitionTime = 1f;
     public PlayerControl movement;
@@ -23,6 +25,7 @@ public class PauseMenu : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            
             if (GameIsPaused)
             {
                 Resume();
@@ -54,6 +57,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         movement.enabled = true;
+        
     }
 
     public void Pause()
