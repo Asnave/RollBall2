@@ -38,7 +38,7 @@ public class PlayerControl : MonoBehaviour
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
         restart.SetActive(false);
-        nextButton.SetActive(true);
+        nextButton.SetActive(false);
       
     }
 
@@ -103,8 +103,8 @@ public class PlayerControl : MonoBehaviour
             {
                 winTextObject.SetActive(true);
                 loseTextObject.SetActive(false);
-                nextButton.SetActive(true);
                 restart.SetActive(false);
+                nextButton.SetActive(true);
 
             }
             
