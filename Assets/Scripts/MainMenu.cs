@@ -28,7 +28,8 @@ public class MainMenu : MonoBehaviour
     }
     public void BackToMenu ()
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu");
         DontDestroyOnLoad(gameObject);
     }
  
