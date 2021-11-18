@@ -97,6 +97,7 @@ public class PlayerControl : MonoBehaviour
                 loseTextObject.SetActive(true);
                 winTextObject.SetActive(false);
                 restart.SetActive(true);
+                nextButton.SetActive(false);
             }
 
             if (count >= 20)
