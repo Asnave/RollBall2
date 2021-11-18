@@ -12,6 +12,7 @@ public class PlayerControl : MonoBehaviour
     public GameObject winTextObject;
     public GameObject loseTextObject;
     public GameObject restart;
+    public GameObject nextButton;
     
     public PlayerControl movement;
 
@@ -37,6 +38,7 @@ public class PlayerControl : MonoBehaviour
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
         restart.SetActive(false);
+        nextButton.SetActive(true);
       
     }
 
@@ -87,21 +89,24 @@ public class PlayerControl : MonoBehaviour
 
         if (other.gameObject.CompareTag("End"))
         {
-
+            loseTextObject.SetActive(true);
+            restart.SetActive(true);
 
             if (count < 20)
             {
                 loseTextObject.SetActive(true);
                 winTextObject.SetActive(false);
+                restart.SetActive(true);
             }
 
             if (count >= 20)
             {
                 winTextObject.SetActive(true);
                 loseTextObject.SetActive(false);
+                nextButton.SetActive(true);
+                restart.SetActive(false);
+
             }
-            
-            restart.SetActive(true);
             
         }
 
