@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ParticleSystem : MonoBehaviour
 {
+    
     public GameObject Ball;
     private Vector3 offset;
 
@@ -11,11 +12,15 @@ public class ParticleSystem : MonoBehaviour
     void Start()
     {
         offset = transform.position - Ball.transform.position;
+        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = Ball.transform.position + offset;
+       
     }
 }
+
