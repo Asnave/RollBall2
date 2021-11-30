@@ -63,16 +63,12 @@ public class PlayerControl : MonoBehaviour
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
         rb.AddForce(movement * speed);
-
-    }
-
-    private void Update()
-    {
         rb.AddForce(0, 0, 30);
         rb.AddForce(0, -15, 0);
 
-        
     }
+
+ 
     
     private void OnTriggerEnter(Collider other)
     {

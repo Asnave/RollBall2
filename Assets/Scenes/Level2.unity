@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1484,7 +1484,7 @@ GameObject:
   - component: {fileID: 372687641}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Obstacles
+  m_TagString: End
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1963,7 +1963,7 @@ GameObject:
   - component: {fileID: 469495337}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Obstacles
+  m_TagString: End
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5823,7 +5823,7 @@ GameObject:
   - component: {fileID: 1406918870}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Obstacles
+  m_TagString: End
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5836,7 +5836,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406918868}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 5.5148525, y: -2.2533236, z: -5.8786926}
+  m_LocalPosition: {x: 5.5148525, y: -2.71, z: -5.8786926}
   m_LocalScale: {x: 10.13, y: 3.97, z: 1}
   m_Children: []
   m_Father: {fileID: 1535495140}
@@ -6583,7 +6583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667018428}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.5148525, y: -4.0033236, z: -2.47}
+  m_LocalPosition: {x: 5.5148525, y: -4.46, z: -2.47}
   m_LocalScale: {x: 19.416172, y: 4.563118, z: 5.71}
   m_Children: []
   m_Father: {fileID: 1535495140}
