@@ -5302,19 +5302,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 696943377860969994, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_fontColor.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 696943377860969994, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_fontColor.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 696943377860969994, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_fontColor.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 696943377860969994, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 696943378254863426, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -5399,6 +5399,22 @@ PrefabInstance:
     - target: {fileID: 696943378442017733, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943378476893866, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943378476893866, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943378476893866, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696943378476893866, guid: 2854dac5d6a08a846997532207286952, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 696943378482930960, guid: 2854dac5d6a08a846997532207286952, type: 3}
       propertyPath: m_Name
